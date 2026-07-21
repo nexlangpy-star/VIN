@@ -1,6 +1,6 @@
 import os
 import sys
-from .UR7 import run_encrypted_code, X_code, MyLib
+from .TOP import advanced_multilayer_obfuscate, code_c
 lib_dir = os.path.dirname(__file__)
 os.environ['LD_LIBRARY_PATH'] = lib_dir + ':' + os.environ.get('LD_LIBRARY_PATH', '')
 
