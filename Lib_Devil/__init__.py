@@ -1,6 +1,6 @@
 import os
 import sys
-from .TOP import advanced_multilayer_obfuscate, code_c
+from .TOP import *
 lib_dir = os.path.dirname(__file__)
 os.environ['LD_LIBRARY_PATH'] = lib_dir + ':' + os.environ.get('LD_LIBRARY_PATH', '')
 
